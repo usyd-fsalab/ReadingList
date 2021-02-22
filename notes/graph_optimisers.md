@@ -51,13 +51,18 @@ The paper suggests an end to end deep RL method in GO for Ml compiler graph opti
 ML Computations are represented as computation graphs $G(V, E)$ where the nodes $V$ represent the computations and the edges represent the data flows.
 
 - **Device Placement**
+  
   - Given a computational graph, the **goal of device placement is to learn a policy **$\pi : G \rightarrow D$ that assigns a device $D \in D$ for all $G \in G$ **to maximise a reward** $r_{G, D}$ based on the runtime.Given a computational graph, the goal of device placement is to learn a policy  that assigns a device  for all  to maximise a reward  based on the runtime.
+
 - **Operation scheduling**
+  
   - The operation in the dataflow graph **is ready to run when the incoming tensors are present in device memory.**
   - A frequently used scheduling strategy that is very inefficient is to use a **FIFO order which maintains a ready queue of operations for each device.** These schedules **exhibit underutilised devices since operations for these are blocked on producer operations.**
   - Instead the paper uses a priority based scheduler and maintains a priority queue of deivce ready operations.
   - This can be set using a learning policy $\pi: G \rightarrow P$ that assigns a scheduling priority $P \in P$ for all operations in the graph to maximise a reward $r_{G, P}$ 
+
 - **Operator Fusion**
+  
   - It is the process of merging multiple operations into a single operation.
   - Say we have two operations, K1 and the output is consumed by K2, if these are fused then the intermediate data is **immediately used** for K2 when K1 finishes on the device, **without the need to perform read and write transactions with global memory.**
   - Strategies such as considering operations in topological order can make inefficient fusion decisions and lead to optimal performance. 
@@ -65,6 +70,7 @@ ML Computations are represented as computation graphs $G(V, E)$ where the nodes 
   - An example of where a priority would be useful is in the below example where we have an element wise multiplication, reduction and sigmoid, and if we choose to use operator fusion on the multiply and reduce then the memory would stay in the scratchpad memory for the reduce operation.
 
 - Generalisation
+  
   - Old approaches only focus on a single graph
   - The goal is to simultaneously reduce the expected run time of the optimisation over multiple dataflow graphs, $J(\theta) = E_{G \sim G, T \sim \pi_{\theta}(G)} [r_{G, T}]$
   - T in this case is ${D, P, F}$ from the above.
@@ -82,4 +88,3 @@ Instead this is done using as iterative but non auto-regressive approach as an a
 $p(y^{(t)} | G) = \prod_{i = 1..N}p(y_{i}^{(t)} | h_{G}, y^{(t - 1)})$
 
 The architecture is said to be invariant over the underlying graph topology and can be applied over multiple input graphs, GO optimises the objective described in section 3 using the **Proximal Policy Optimisation (PPO)**. 
-
