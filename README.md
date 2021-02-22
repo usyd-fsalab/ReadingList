@@ -12,31 +12,31 @@ Moreover, this also includes a list of recommended readings by the group.
 
 ### Architecture Conferences
 
-- [ASPLOS](Architecture Conferences/ASPLOS/README.md)
+[ASPLOS](Architecture Conferences/ASPLOS/README.md)
 
-- [HPCA](Architecture Conferences/HPCA/README.md)
+[HPCA]('Architecture Conferences/HPCA/README.md')
 
-- [ISCA](Architecture Conferences/ISCA/README.md)
+[ISCA](Architecture Conferences/ISCA/README.md)
 
-- [MICRO](Architecture Conferences/MICRO/README.md)
+[MICRO](Architecture Conferences/MICRO/README.md)
 
 ### Machine Learning Conferences
 
-- [ICLR](Machine Learning Conferences/ICLR/README.md)
+[ICLR](Machine Learning Conferences/ICLR/README.md)
 
-- [ICML](Machine Learning Conferences/ICML/README.md)
+[ICML](Machine Learning Conferences/ICML/README.md)
 
-- [NIPS](Machine Learning Conferences/NIPS/README.md)
+[NIPS](Machine Learning Conferences/NIPS/README.md)
 
 ### System Focus Conferences
 
-- [ATC](System Focus Conferences/ATC/README.md)
+[ATC](System Focus Conferences/ATC/README.md)
 
-- [SC](System Focus Conferences/SC/README.md)
+[SC](System Focus Conferences/SC/README.md)
 
-- [OSDI](System Focus Conferences/OSDI/README.md)
+[OSDI](System Focus Conferences/OSDI/README.md)
 
-- [SOSP](System Focus Conferences/SOSP/README.md)
+[SOSP](System Focus Conferences/SOSP/README.md)
 
 ### Leon Reading List
 
