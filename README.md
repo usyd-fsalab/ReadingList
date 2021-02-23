@@ -38,7 +38,7 @@ Moreover, this also includes a list of recommended readings by the group.
 
 - [SOSP](System%20Focus%20Conferences/SOSP/README.md)
 
-### Leon Reading List
+### Reading List
 
 Ordered by date recommended (ascending order).
 
