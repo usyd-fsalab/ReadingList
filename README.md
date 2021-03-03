@@ -56,3 +56,5 @@ Ordered by date recommended (ascending order).
 |                                          | 2019 | [Gravitational Wave BNN](https://arxiv.org/pdf/1903.01998.pdf)                                                                                                             |                                                 |
 |                                          | 2020 | [Efficient And Scalable BNN using Rank-1 Factors](https://arxiv.org/pdf/2005.07186.pdf#cite.molchanov2017variational)                                                      | [notes](notes/rank_1_BNN.md)                    |
 |                                          | 2020 | [Automatic Generation of High-Performance Quantised Machine Learning](https://protect-au.mimecast.com/s/cHyYCL7EwMfGg1BPuB5z_g?domain=cs.utexas.edu)                       |                                                 |
+|                                          | 2018 | [Neural Architecture Search: A Survey](https://arxiv.org/abs/1808.05377)
+                                                                   |                                          |
