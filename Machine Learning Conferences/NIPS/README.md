@@ -52,6 +52,7 @@ https://proceedings.neurips.cc/paper/2020
 | Bayesian Bits: Unifying Quantization and Pruning                                                | Mart van Baalen, Christos Louizos, Markus Nagel, Rana Ali Amjad, Ying Wang, Tijmen Blankevoort, Max Welling | [pdf](https://proceedings.neurips.cc/paper/2020/hash/3f13cf4ddf6fc50c0d39a1d5aeb57dd8-Abstract.html)  |
 | Gaussian Process Bandit Optimization of the Thermodynamic Variational Objective                 | Vu Nguyen, Vaden Masrani, Rob Brekelmans, Michael Osborne, Frank Wood                                       | [pdf](https://proceedings.neurips.cc/paper/2020/hash/3f2dff7862a70f97a59a1fa02c3ec110-Abstract.html)  |
 | Bayesian Probabilistic Numerical Integration with Tree-Based Models                             | Harrison Zhu, Xing Liu, Ruya Kang, Zhichao Shen, Seth Flaxman, Francois-Xavier Briol                        | [pdf](https://proceedings.neurips.cc/paper/2020/hash/3fe94a002317b5f9259f82690aeea4cd-Abstract.html)  |
+| Efficient Variational Inference for Sparse Deep Learning with Theoretical Guarantee | Jincheng Bai, Qifan Song and Guang Cheng | [pdf](https://proceedings.neurips.cc/paper/2020/hash/05a624166c8eb8273b8464e8d9cb5bd9-Abstract.html) |
 | Bayesian Causal Structural Learning with Zero-Inflated Poisson Bayesian Networks                | Junsouk Choi, Robert Chapkin, Yang Ni                                                                       | [pdf](https://proceedings.neurips.cc/paper/2020/hash/4175a4b46a45813fccf4bd34c779d817-Abstract.html)  |
 |                                                                                                 |                                                                                                             |                                                                                                       |
 |                                                                                                 |                                                                                                             |                                                                                                       |
@@ -63,12 +64,24 @@ https://proceedings.neurips.cc/paper/2020/hash/07217414eb3fbe24d4e5b6cafb91ca18-
 
 https://proceedings.neurips.cc/paper/2019
 
-Efficient Variational Inference for Sparse Deep Learning with Theoretical Guarantee
+| Paper                                                                               | Author                                   | PDF & Notes                                                                                          |
+|-------------------------------------------------------------------------------------|------------------------------------------|------------------------------------------------------------------------------------------------------|
+| E2-Train: Training State-of-the-art CNNs with Over 80% Energy Savings               | Yue Wang, Ziyu Jiang, Xiaohan Chen, Pengfei Xu, Yang Zhao, Yingyan Lin and Zhangyang Wang                                         | [pdf](https://proceedings.neurips.cc/paper/2019/file/663772ea088360f95bac3dc7ffb841be-Paper.pdf)                                                                                              |
 
-https://proceedings.neurips.cc/paper/2020/hash/05a624166c8eb8273b8464e8d9cb5bd9-Abstract.html
+
+## 2018
+
+https://proceedings.neurips.cc/paper/2018
+
+| Paper                         | Author                                                                                                   | PDF & Notes                                                                                |
+|-------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| | | |
 
 ## 2016
 
-Learning Structured Sparsity in Deep Neural Networks
+| Paper                                                | Author                                                | PDF & Notes                                                                                  |
+|------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Learning Structured Sparsity in Deep Neural Networks | Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, Hai Li | [pdf](https://papers.nips.cc/paper/2016/hash/41bfd20a38bb1b0bec75acf0845530a7-Abstract.html) |
 
-https://papers.nips.cc/paper/2016/hash/41bfd20a38bb1b0bec75acf0845530a7-Abstract.html
+
+
