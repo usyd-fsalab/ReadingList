@@ -1,6 +1,5 @@
 # NeurIPS Papers
 
-https://proceedings.neurips.cc/paper/2020
 
 ## 2022
 
@@ -11,11 +10,15 @@ https://proceedings.neurips.cc/paper/2020
          
 ## 2021
 
+https://proceedings.neurips.cc/paper/2021
+
 | Paper                         | Author                                                                                                   | PDF & Notes                                                                                      |
 |-------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Localility Sensitive Teaching | Zhaozhuo Xu (RICE), Beidi Chen, Chaojian Li, Weiyang Liu, Le Song, Yingyan Lin and Anshumali Shrivastava | [pdf](https://proceedings.neurips.cc/paper/2021/file/95c3f1a8b262ec7a929a8739e21142d7-Paper.pdf) |
 
 ## 2020
+
+https://proceedings.neurips.cc/paper/2020
 
 | Paper                                                                                           | Author                                                                                                      | PDF & Notes                                                                                           |
 | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
